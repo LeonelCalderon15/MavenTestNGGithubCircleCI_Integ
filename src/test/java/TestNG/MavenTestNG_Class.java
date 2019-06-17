@@ -19,7 +19,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import com.opencsv.CSVReader;
 import MavenTestNGGithubCircleCI_Integ.MavenTestNGGithubCircleCI_Integ.PageObject_EurHistoricalData;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 public class MavenTestNG_Class  {	
    
    private WebDriver driver;
@@ -28,9 +28,10 @@ public class MavenTestNG_Class  {
    
    @BeforeTest
    public void launchapp() {
-	  String key_driver = "webdriver.chrome.driver";
-	  String loc_driver =  "C:\\Users\\Vatbox Dev\\Documents\\Eclipse IDE Jars, Exe, Zip\\Browser Driver\\chromedriver_win32\\chromedriver.exe";
-	  System.setProperty(key_driver, loc_driver);      
+	 //String key_driver = "webdriver.chrome.driver";
+	 // String loc_driver =  "C:\\Users\\Vatbox Dev\\Documents\\Eclipse IDE Jars, Exe, Zip\\Browser Driver\\chromedriver_win32\\chromedriver.exe";
+	 // System.setProperty(key_driver, loc_driver); 
+	  WebDriverManager.chromedriver().setup();
       driver = new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
       // Go to https://www.investing.com/currencies/eur-usd-historical-data
