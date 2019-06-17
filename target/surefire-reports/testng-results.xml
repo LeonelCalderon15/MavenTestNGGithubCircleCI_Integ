@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MavenTestNGGithubCircleCI_Integ.MavenTestNGGithubCircleCI_Integ.AppTest" duration-ms="5" started-at="2019-06-17T08:25:51Z" finished-at="2019-06-17T08:25:51Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5" started-at="2019-06-17T08:25:51Z" finished-at="2019-06-17T08:25:51Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- MavenTestNGGithubCircleCI_Integ.MavenTestNGGithubCircleCI_Integ.AppTest -->
+</testng-results>
