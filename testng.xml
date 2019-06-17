@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="TestNG.MavenTestNG_Class2"/>
       <class name="TestNG.MavenTestNG_Class"/>
+      <class name="MavenTestNGGithubCircleCI_Integ.MavenTestNGGithubCircleCI_Integ.AppTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

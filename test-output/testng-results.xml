@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40" started-at="2019-06-17T08:25:29Z" finished-at="2019-06-17T08:25:29Z">
+  <suite name="Default suite" duration-ms="47" started-at="2019-06-17T08:43:44Z" finished-at="2019-06-17T08:43:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="40" started-at="2019-06-17T08:25:29Z" finished-at="2019-06-17T08:25:29Z">
-      <class name="TestNG.MavenTestNG_Class">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.MavenTestNG_Class@61832929]" name="beforeTest" is-config="true" duration-ms="12" started-at="2019-06-17T08:25:29Z" finished-at="2019-06-17T08:25:29Z">
+    <test name="Default test" duration-ms="47" started-at="2019-06-17T08:43:44Z" finished-at="2019-06-17T08:43:44Z">
+      <class name="TestNG.MavenTestNG_Class2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.MavenTestNG_Class2@61832929]" name="beforeTest" is-config="true" duration-ms="16" started-at="2019-06-17T08:43:44Z" finished-at="2019-06-17T08:43:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:TestNG.MavenTestNG_Class@61832929]" name="f" duration-ms="5" started-at="2019-06-17T08:25:29Z" finished-at="2019-06-17T08:25:29Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestNG.MavenTestNG_Class2@61832929]" name="f" duration-ms="16" started-at="2019-06-17T08:43:44Z" finished-at="2019-06-17T08:43:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.MavenTestNG_Class@61832929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-17T08:25:29Z" finished-at="2019-06-17T08:25:29Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.MavenTestNG_Class2@61832929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-06-17T08:43:44Z" finished-at="2019-06-17T08:43:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.MavenTestNG_Class -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestNG.MavenTestNG_Class2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
